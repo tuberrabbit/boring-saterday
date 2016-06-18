@@ -1,0 +1,25 @@
+{
+  "name": "boring-saterday",
+  "version": "1.0.0",
+  "description": "Jigsaw Puzzle for html5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuberrabbit/boring-saterday.git"
+  },
+  "author": "tuber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuberrabbit/boring-saterday/issues"
+  },
+  "homepage": "https://github.com/tuberrabbit/boring-saterday#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.1.0"
+  }
+}
