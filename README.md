@@ -1,2 +1,2 @@
 # boring-saterday
-Jigsaw Puzzle for html5
+Canvas Puzzle for html5
