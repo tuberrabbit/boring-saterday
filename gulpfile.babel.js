@@ -35,8 +35,8 @@ gulp.task('watch', ()=> {
         .pipe(connect.reload());
 });
 
-gulp.task('html', ()=> {
-    return gulp.src('./app/**/*.html')
+gulp.task('copy', ()=> {
+    return gulp.src(['./app/**/*.html','./app/**/*.jpeg'])
         .pipe(gulp.dest('./dist'));
 });
 
@@ -47,7 +47,7 @@ gulp.task('clean', ()=> {
 gulp.task('default', ()=> {
     runSequence('clean',
         ['sass', 'js'],
-        'html',
+        'copy',
         'connect',
         'watch');
 });
