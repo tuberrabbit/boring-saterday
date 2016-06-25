@@ -27,7 +27,7 @@ gulp.task('js', ()=> {
 });
 
 gulp.task('watch', ()=> {
-    gulp.watch('./app/**/*.html', ['html']);
+    gulp.watch('./app/**/*.html', ['copy']);
     gulp.watch('./app/**/*.js', ['js']);
     gulp.watch('./app/sass/**/*.scss', ['sass']);
     gulp.src('./app/**/*.html')
